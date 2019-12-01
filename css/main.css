@@ -23,3 +23,14 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+.polaroid:nth-child(1) {
+  z-index: 1;
+  transform: translate(192px, 100px) rotate(-12deg);
+}
+
+.polaroid:hover:nth-child(1) {
+  z-index: 100;
+  transform: rotate(0) translate(192px, 100px);
+  box-shadow: 1px 4px 12px rgba(0, 0, 0, .8);
+}
