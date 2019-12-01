@@ -45,3 +45,14 @@ html {
   transform: rotate(0deg) translate(288px, 150px);
   box-shadow: 1px 4px 12px rgba(0, 0, 0, .8);
 }
+
+.polaroid:nth-child(3) {
+  z-index: 2;
+  transform: translate(384px, 100px) rotate(33deg);
+}
+
+.polaroid:hover:nth-child(3) {
+  z-index: 100;
+  transform: rotate(0deg) translate(384px, 100px);
+  box-shadow: 1px 4px 12px rgba(0, 0, 0, .8);
+}
